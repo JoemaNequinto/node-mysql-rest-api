@@ -1,0 +1,24 @@
+{
+  "name": "node-mysql-rest-api",
+  "version": "1.0.0",
+  "description": "Node.js Boilerplate",
+  "main": "bin/www",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoemaNequinto/node-mysql-rest-api.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mysql"
+  ],
+  "author": "Joema Nequinto <janequinto@codedisruptors.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoemaNequinto/node-mysql-rest-api/issues"
+  },
+  "homepage": "https://github.com/JoemaNequinto/node-mysql-rest-api#readme"
+}
