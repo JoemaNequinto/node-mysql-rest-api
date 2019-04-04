@@ -1,6 +1,9 @@
 # node-mysql-rest-api
 > Simple Node.js Boilerplate for simple Node.js Applications. Inspired by [septa97's node-boilerplate](https://github.com/septa97/node-boilerplate), [Kunal Kapadia's express-mongoose-es6-rest-api](https://github.com/KunalKapadia/express-mongoose-es6-rest-api), and [brianschardt's node_rest_api_mysql](https://github.com/brianschardt/node_rest_api_mysql)
 
+[![Build Status](https://api.travis-ci.org/JoemaNequinto/node-mysql-rest-api.svg?branch=master)](https://travis-ci.org/JoemaNequinto/node-mysql-rest-api)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 A boilerplate for building applications in Node.js using ES6 with Code Coverage. Follows [Airbnb's Javascript Style Guide](https://github.com/airbnb/javascript).
 
 ## Features
