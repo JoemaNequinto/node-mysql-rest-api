@@ -46,6 +46,22 @@ You must also create a new README.md. Open the new README.md then modify it depe
 
 The above code installs the dependencies, creates an environment file, and modifies the package.json file.
 
+## MySQL create database
+
+Simple script to create MySQL database and user.
+
+```shell
+cd scripts/
+sudo chmod 755 mysql-db-create.sh
+sudo ./mysql-db-create.sh <dbname> <dbuser> <password>
+```
+
+You must enter the password of MySQL root user.
+
+You must change the values of DB_NAME, DB_USER, DB_PASSWORD in .env with dbname, dbuser, password
+
+The above code creates a MySQL database, user and password; modifies the .env file.
+
 ## Developing the application
 
 To start developing with code linter,
