@@ -1,0 +1,15 @@
+{
+  "name": "node-mysql-rest-api",
+  "version": "0.1.0",
+  "description": "Node.js Boilerplate API Documentation",
+  "title": "node-mysql-rest-api",
+  "url": "/api",
+  "header": {
+    "title": "node-mysql-rest-api",
+    "filename": "header.md"
+  },
+  "footer": {
+    "title": "Footer",
+    "filename": "footer.md"
+  }
+}
