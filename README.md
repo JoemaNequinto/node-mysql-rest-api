@@ -17,6 +17,7 @@ A boilerplate for building applications in Node.js using ES6 with Code Coverage.
 | Auto-restart server using [nodemon](https://nodemon.io/)                                              |
 | Logging using [debug](https://github.com/visionmedia/debug)                                           |
 | HTTP access control using [cors](https://github.com/expressjs/cors)                                   |
+| Authorization access control using [node-casbin](https://github.com/casbin/node-casbin)               |
 | API parameter validation using [express-validation](https://github.com/andrewkeig/express-validation) |
 | Code coverage using [istanbul](https://istanbul.js.org/)                                              |
 | HTTP status code and message [http-status](https://github.com/adaltas/node-http-status)               |
@@ -72,6 +73,19 @@ To start developing with code linter,
 ```shell
 npm run dev
 ```
+
+## Add an access to a route for a certain role
+
+Edit the `policy.csv` file in `src/lib/acl/`
+
+Add an entry:
+
+1st column - p
+2nd column - sub (role eg. admin)
+3rd column - obj (resource or route eg. /users)
+4th column - act (method eg. POST, GET, PUT, DELETE)
+
+For more info, read the [casbin documentation.](https://casbin.org/docs/en/overview)
 
 ## Making a commit
 
