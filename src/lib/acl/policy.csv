@@ -1,0 +1,5 @@
+p, user, /users, GET
+p, user, /users/:username, GET
+p, user, /auth/logout, GET
+p, guest, /auth/login, POST
+p, guest, /users/register, POST
