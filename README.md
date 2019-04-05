@@ -81,8 +81,11 @@ Edit the `policy.csv` file in `src/lib/acl/`
 Add an entry:
 
 1st column - p
+
 2nd column - sub (role eg. admin)
+
 3rd column - obj (resource or route eg. /users)
+
 4th column - act (method eg. POST, GET, PUT, DELETE)
 
 For more info, read the [casbin documentation.](https://casbin.org/docs/en/overview)
