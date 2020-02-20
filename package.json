@@ -92,7 +92,7 @@
     "passport-jwt": "4.0.0",
     "passport-local": "1.0.0",
     "prompt": "1.0.0",
-    "sequelize": "5.7.1",
+    "sequelize": "5.15.1",
     "supertest": "4.0.2",
     "tape": "4.10.1",
     "uuid": "3.3.2"
