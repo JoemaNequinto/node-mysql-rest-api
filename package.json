@@ -45,7 +45,7 @@
     "babel-cli": "6.26.0",
     "babel-plugin-transform-builtin-extend": "1.1.2",
     "babel-preset-env": "1.7.0",
-    "codecov": "3.6.5",
+    "codecov": "3.7.1",
     "commitizen": "3.0.7",
     "cross-env": "5.2.0",
     "cz-conventional-changelog": "2.1.0",
